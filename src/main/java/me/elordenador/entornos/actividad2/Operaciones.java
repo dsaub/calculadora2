@@ -4,5 +4,7 @@ public enum Operaciones {
     SUMAR,
     RESTAR,
     MULTIPLICAR,
-    DIVIDIR
+    DIVIDIR,
+    POTENCIA,
+    MEDIA
 }
