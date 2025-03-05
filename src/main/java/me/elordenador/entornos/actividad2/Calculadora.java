@@ -39,6 +39,10 @@ public class Calculadora {
         return (a+b) / 2;
     }
 
+    public static int multiplicacion_de_tres(int a, int b, int c) {
+        return a*b*c;
+    }
+
     public static double calculadora(int a, int b, Operaciones operacion) {
         switch (operacion) {
             case SUMAR: return sumar(a, b);
