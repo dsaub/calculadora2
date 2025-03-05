@@ -35,6 +35,10 @@ public class Calculadora {
         return (int) Math.pow(base, exponente);
     }
 
+    public static double media(int a, int b) {
+        return (a+b) / 2;
+    }
+
     public static double calculadora(int a, int b, Operaciones operacion) {
         switch (operacion) {
             case SUMAR: return sumar(a, b);
@@ -42,6 +46,7 @@ public class Calculadora {
             case MULTIPLICAR: return multiplicar(a, b);
             case DIVIDIR: return dividir(a, b);
             case POTENCIA: return potencia(a, b);
+            case MEDIA: return media(a, b);
             
             default: return 0;
         }

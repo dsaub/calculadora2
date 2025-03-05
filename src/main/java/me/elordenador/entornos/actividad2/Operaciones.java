@@ -5,5 +5,6 @@ public enum Operaciones {
     RESTAR,
     MULTIPLICAR,
     DIVIDIR,
-    POTENCIA
+    POTENCIA,
+    MEDIA
 }
