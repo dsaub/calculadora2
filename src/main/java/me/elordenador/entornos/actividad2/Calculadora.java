@@ -31,12 +31,17 @@ public class Calculadora {
         return solucion;
     }
 
+    public static int potencia(int base, int exponente) {
+        return (int) Math.pow(base, exponente);
+    }
+
     public static double calculadora(int a, int b, Operaciones operacion) {
         switch (operacion) {
             case SUMAR: return sumar(a, b);
             case RESTAR: return restar(a, b);
             case MULTIPLICAR: return multiplicar(a, b);
             case DIVIDIR: return dividir(a, b);
+            case POTENCIA: return potencia(a, b);
             
             default: return 0;
         }
